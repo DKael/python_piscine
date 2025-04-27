@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft-package"
+version = "0.0.1"
+authors = [
+  { name = "hyungdki", email = "hyungdki@student.42seoul.kr" }
+]
+description = "A sample test package"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+dependencies = [ ]
+urls = { Homepage = "https://github.com/DKael/ft_package" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]

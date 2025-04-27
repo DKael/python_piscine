@@ -4,13 +4,18 @@ import sys
 def main():
     str_input = ""
     str_length = 0
-    if len(sys.argv) < 2:
-        str_input = input("What is the text to count?\n")
-        str_input += "\n"
-    elif len(sys.argv) > 2:
-        raise AssertionError("more than one argument is provided")
-    else:
-        str_input = sys.argv[1]
+
+    try:
+        if len(sys.argv) < 2:
+            str_input = input("What is the text to count?\n")
+            str_input += "\n"
+        elif len(sys.argv) > 2:
+            raise AssertionError("more than one argument is provided")
+        else:
+            str_input = sys.argv[1]
+    except AssertionError as e:
+        print("AssertionError:", e)
+        exit()
 
     str_length = len(str_input)
     upper_cnt = 0
