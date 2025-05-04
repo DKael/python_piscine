@@ -2,6 +2,11 @@ import sys
 
 
 def main():
+    """
+    This program takes a single string argument
+    and isplays the sums of its upper-case characters, lower-case
+    characters, punctuation characters, digits and spaces.
+    """
     str_input = ""
     str_length = 0
 

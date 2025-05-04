@@ -10,7 +10,7 @@ authors = [
 ]
 description = "A sample test package"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 dependencies = [ ]
 urls = { Homepage = "https://github.com/DKael/ft_package" }

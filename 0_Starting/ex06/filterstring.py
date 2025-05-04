@@ -3,6 +3,11 @@ from ft_filter import ft_filter
 
 
 def main():
+    """
+    This programs takes two arguments.
+    The program outputs a list of words from S
+    that have a length greater than N.
+    """
     try:
         if len(sys.argv) != 3:
             raise AssertionError("the arguments are bad")
